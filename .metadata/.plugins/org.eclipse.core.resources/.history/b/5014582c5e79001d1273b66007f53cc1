@@ -1,0 +1,17 @@
+package TestCases;
+
+import java.io.IOException;
+
+import Resources.baseClass;
+
+public class test  extends baseClass {
+	public void method1() throws IOException {
+	
+	@Test
+	
+		
+		
+	
+		
+	}
+}

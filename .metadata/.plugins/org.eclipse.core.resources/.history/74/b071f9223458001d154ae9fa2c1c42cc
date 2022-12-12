@@ -1,0 +1,42 @@
+package Arrays;
+
+import java.lang.reflect.Array;
+import java.util.Arrays;
+
+public class SingleDimentionalArray {
+public static void main (String [] args) {
+	
+	int[]a= {50,60,70,80,90};
+	
+	System.out.println(a.length);
+	System.out.println(Arrays.toString(a)); 
+	
+	//replace
+	
+	a[1]=40;
+	System.out.println(a[1]);
+	System.out.println(Arrays.toString(a)); 
+	
+	//for loop
+	int []d= {10,20,30,40,50};
+	for(int i=0; i<=4; i++)
+	System.out.print(d[i]+" ");
+    
+	//using for each loop
+	for(int k:d) {
+	if(k==20) {
+	System.out.print(k+"");	
+	
+	//String
+	String []p= {"Kajal","Krishana","Khushi"}; 
+	System.out.println(Arrays.toString(p));
+	
+	System.out.println(p.length);
+	}
+}
+
+
+
+}
+
+}

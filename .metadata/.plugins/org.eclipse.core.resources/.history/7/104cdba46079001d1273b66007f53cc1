@@ -1,0 +1,20 @@
+package TestCases;
+
+import java.io.IOException;
+
+import org.junit.Test;
+
+import Resources.baseClass;
+
+public class test extends baseClass {
+
+	@Test
+	public void method1() throws IOException {
+	
+		browserInitilization();
+		
+		
+	}
+	
+	
+}
